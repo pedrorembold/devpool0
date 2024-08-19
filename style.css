@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+
+
+}
+
+header {
+    background-color: #ff6100;
+    box-shadow: 0px 3px 10px #fd9757;
+    margin-bottom: 10px;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #fff;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+
+#inicio {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #fff;
+}
+
+#planos {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #fff;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ff6100;
+    padding: 100px 6rem 50px;
+    text-align: center;
+    background-color: rgb(255, 248, 238);
+    justify-content: center;
+
+
+}
+
+.apresentacao h1 {
+    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: 900;
+
+}
+
+.apresentacao h2 {
+    margin-bottom: 20px;
+}
+
+.apresentacao h3 {
+    width: 70%;
+}
+
+.cards {
+    padding: 10vh 15vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #ff6100;
+    width: 20vw;
+    min-width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px #fd9757;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 1em;
+
+}
+
+.textos-card {
+    color: #fff;
+    padding-right: 20px;
+}
+
+.rodape {
+    background-color: #ff6100;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape h1 {
+    padding-bottom: 15px;
+}
+
+.consulte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    background-color: rgb(255, 248, 238);
+
+}
+
+.consulte a {
+    color: #fd9757;
+}
+
+
+
+@media screen and (max-width: 730px) {
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.logo {
+    padding-bottom: 1rem;
+}
+
+.apresentacao {
+    padding: 10vw;
+}
+
+.apresentacao h1 {
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.cards {
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 80%;
+    padding: 3vh;
+}
+
+.fa-people-group {
+    display: none;
+}
+
+#icone {
+    display: none;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+    padding: 10px;
+}
+
+.rodape h1 {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.rodape p {
+    font-size: 12px;
+    padding-bottom: 1em;
+}
+
+.consulte {
+    margin-bottom: 50px;
+}
+
+}

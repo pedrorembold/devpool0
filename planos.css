@@ -1,0 +1,95 @@
+caption {
+    padding: 10vh 0 15vh;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ff6100;
+
+}
+
+.tabela {
+    padding: 0 0 5em;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid #ffc29c;
+    padding: 1.1em;
+    text-align: center;
+}
+.titulo-coluna {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ff6100;
+}
+
+.titulo-coluna th:first-child {
+    color: black;
+}
+.funcionalidade {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#atributo {
+    color: #ff6100;
+    font-size: 1.5rem;
+
+}
+
+.planos-mobile {display: none;}
+
+@media screen and (max-width: 1100px) {
+
+    .tabela {
+        display: none;
+    }
+
+    .planos-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+
+    }
+
+    .planos-mobile h1 {
+        color: #ff6100;
+    }
+
+    .planos-mobile p {
+        margin: 0 0 1rem;
+        color: #ffc29c;
+    }
+
+    .planos-mobile ul {
+        list-style: none;
+    }
+
+    #n {
+        color: #ffc29c;
+    }
+
+    #s {
+        color: #ff6100;
+    }
+
+    .plano {
+        width:80vw;
+        max-width: 1000px;
+        padding: 10px;
+        margin: 10px 0 10px;
+        border: solid 3px;
+        border-color: #ffc29c;
+        border-radius: 15px;
+    }
+
+}
